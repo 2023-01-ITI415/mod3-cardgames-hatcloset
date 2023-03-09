@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "CardSprites", menuName = "ScriptableObjects/CardSpriteSO")]
-public class CardSpritesSO : MonoBehaviour
+public class CardSpritesSO : ScriptableObject
 {
     [Header("Card Stock")]
     public Sprite cardBack;
