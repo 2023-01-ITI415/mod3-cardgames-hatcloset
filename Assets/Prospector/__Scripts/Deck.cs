@@ -19,12 +19,13 @@ public class Deck : MonoBehaviour
     private JsonParseDeck jsonDeck;
 
     static public GameObject SPRITE_PREFAB { get; private set; }
-
+    /* Use the slash-star and star-slash to comment out everything between them
     void Start()
     {
         InitDeck();
         Shuffle(ref cards);
     }
+    */
 
     /// <summary>
     /// The Prospector class will call InitDeck to set up the deck and build
