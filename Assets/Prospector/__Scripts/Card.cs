@@ -43,7 +43,7 @@ public class Card : MonoBehaviour
         AddPips();
         AddFace();
         AddBack();
-        startFaceUp = startFaceUp;
+        faceUp = startFaceUp;
     }
 
     /// <summary>
