@@ -42,6 +42,8 @@ public class Card : MonoBehaviour
         AddDecorators();
         AddPips();
         AddFace();
+        AddBack();
+        startFaceUp = startFaceUp;
     }
 
     /// <summary>
@@ -162,5 +164,30 @@ public class Card : MonoBehaviour
         _tSRend.sortingOrder = 1;// Set the sortingOrder
         _tGO.transform.localPosition = Vector3.zero;
         _tGO.name = faceName;
+    }
+
+    /// <summary>
+    /// Property to show and hide the back of the card.
+    /// </summary>
+    public bool faceUp
+    {
+        get { return (!back.activeSelf); }
+        set { back.SetActive(!value); }
+    }
+
+    /// <summary> 
+    /// Adds a back to the card so that renders on top of everything else
+    /// </summary>
+    private void AddBack()
+    {
+        _tGO = Instantiate<GameObject>(Deck.SPRITE_PREFAB, transform);
+        _tSRend = _tGO.GetComponent<SpriteRenderer>();
+        _tSRend.sprite = CardSpritesSO.BACK;
+        _tGO.transform.localPosition = Vector3.zero;
+        // 2 is a higher sortingOrder than anything else
+        _tSRend.sortingOrder = 2;
+        _tGO.name = "back";
+        back = _tGO;
+
     }
 }
