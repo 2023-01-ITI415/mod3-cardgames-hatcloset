@@ -396,6 +396,8 @@ GameObject:
   - component: {fileID: 1085536065}
   - component: {fileID: 1085536067}
   - component: {fileID: 1085536066}
+  - component: {fileID: 1085536069}
+  - component: {fileID: 1085536068}
   m_Layer: 5
   m_Name: FloatingScore
   m_TagString: Untagged
@@ -520,6 +522,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085536064}
   m_CullTransparentMesh: 1
+--- !u!114 &1085536068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085536064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943ead52c152ef746b3bcc3ee00cfa50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1085536069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085536064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7457e1387e8a6334dbb6efa10fed6924, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  posMode: 2
+  state: 0
+  timeStart: -1
+  timeDuration: 1
+  easingCurve: ',InOut|'
+  bezierPts: []
+  completionEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1132777281
 GameObject:
   m_ObjectHideFlags: 0
