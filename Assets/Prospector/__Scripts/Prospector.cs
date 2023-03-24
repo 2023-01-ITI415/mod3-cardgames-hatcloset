@@ -271,6 +271,7 @@ public class Prospector : MonoBehaviour
         // But wait a moment first, giving the final score a moment to travel
         Invoke("ReloadLevel", roundDelay);
         // SceneManager.LoadScene("__Prospector_Scene_0");
+        UITextManager.GAME_OVER_UI(won);
     }
 
     void ReloadLevel()
