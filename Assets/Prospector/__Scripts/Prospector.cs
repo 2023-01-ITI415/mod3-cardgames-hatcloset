@@ -9,6 +9,8 @@ public class Prospector : MonoBehaviour
 {
     private static Prospector S; // A private Singleton for Prospector
 
+    [Header("Inscrobed")]
+    public float roundDelay = 2f; // 2 sec delay between rounds
     [Header("Dynamic")]
     public List<CardProspector> drawPile;
     public List<CardProspector> discardPile;
@@ -266,7 +268,14 @@ public class Prospector : MonoBehaviour
         // Reset the CardSpritesSO singleton to null
         CardSpritesSO.RESET();
         // Reload the scene, resetting the game
-        // Note that there are TWO underscore at the beginning of "__Prospector...
+        // But wait a moment first, giving the final score a moment to travel
+        Invoke("ReloadLevel", roundDelay);
+        // SceneManager.LoadScene("__Prospector_Scene_0");
+    }
+
+    void ReloadLevel()
+    {
+        // Reload the scene, resetting the game
         SceneManager.LoadScene("__Prospector_Scene_0");
     }
 
