@@ -589,7 +589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac21b09ce13df384bb0468f149fe6d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonDeckFile: {fileID: 4900000, guid: caff80825454742cba113312425f8137, type: 3}
+  jsonDeckFile: {fileID: 4900000, guid: fb40a615c462b1248961f2007df5f8e2, type: 3}
   deck:
     decorators: []
     cards: []
@@ -610,7 +610,7 @@ MonoBehaviour:
     type: 3}
   prefabSprite: {fileID: 1000014090761352, guid: 30a6ba41f0d264815a76b64a60ee0b62,
     type: 3}
-  startFaceUp: 1
+  startFaceUp: 0
   deckAnchor: {fileID: 0}
   cards: []
 --- !u!114 &827460516
@@ -642,7 +642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b50a1c16cc05cd4f8ab74adcee42fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonLayoutFile: {fileID: 4900000, guid: 0579412819a174464adf828afde18c5f, type: 3}
+  jsonLayoutFile: {fileID: 4900000, guid: 2feb2386007314a4bbfd067fd7086ff2, type: 3}
   layout:
     multiplier: {x: 0, y: 0}
     slots: []
