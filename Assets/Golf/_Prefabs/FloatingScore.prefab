@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7133411417888780889}
   - component: {fileID: 7133411417888780891}
   - component: {fileID: 7133411417888780890}
-  - component: {fileID: 7133411417888780893}
-  - component: {fileID: 7133411417888780892}
+  - component: {fileID: 2078323173045190447}
+  - component: {fileID: -6357752735141339017}
   m_Layer: 5
   m_Name: FloatingScore
   m_TagString: Untagged
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &7133411417888780893
+--- !u!114 &2078323173045190447
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7133411417888780888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7457e1387e8a6334dbb6efa10fed6924, type: 3}
+  m_Script: {fileID: 11500000, guid: 076bd996264a9784583a9a4b70a6c339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   posMode: 2
@@ -155,15 +155,15 @@ MonoBehaviour:
   timeDuration: 4
   easingCurve: ',InOut|'
   bezierPts:
-  - {x: 0.5, y: 0.5, z: 0}
-  - {x: 0.30385965, y: 0.21036372, z: 0}
-  - {x: 0.5736305, y: 0.25159878, z: 0}
-  - {x: 0.85378146, y: 0.25995213, z: 0}
-  - {x: 0.43963093, y: 0.15676567, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
   completionEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &7133411417888780892
+--- !u!114 &-6357752735141339017
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7133411417888780888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 943ead52c152ef746b3bcc3ee00cfa50, type: 3}
+  m_Script: {fileID: 11500000, guid: d92139b626a879848ba5b65cbb9f690d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fontSizes:

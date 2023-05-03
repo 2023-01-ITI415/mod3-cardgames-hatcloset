@@ -9,7 +9,7 @@ namespace GolfGame
     public class Deck : MonoBehaviour
     {
         [Header("Inscribed")]
-        public CardSpritesSO cardSprites;
+        public CardSpritesSO1 cardSprites;
         public GameObject prefabCard;
         public GameObject prefabSprite;
         public bool startFaceUp = true;

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f218a787ff1e19b4c8b81807afb44768, type: 3}
+  m_Name: CardSprites
+  m_EditorClassIdentifier: 
+  cardBack: {fileID: 21300000, guid: 37673287199a88346813e53676763539, type: 3}
+  cardBackSilver: {fileID: 21300000, guid: 37673287199a88346813e53676763539, type: 3}
+  cardBackGold: {fileID: 21300000, guid: 37673287199a88346813e53676763539, type: 3}
+  cardFront: {fileID: 21300000, guid: 5e516d948788abf44b99df7d19abe6b7, type: 3}
+  cardFrontSilver: {fileID: 21300000, guid: d2025a1eba56dac4b9b75d873c6699b8, type: 3}
+  cardFrontGold: {fileID: 21300000, guid: 18021ff0083a9d34c8ff2b4ceac2b3a5, type: 3}
+  suitClub: {fileID: 21300000, guid: d375defdeffc63242afcc1d2aded4e49, type: 3}
+  suitDiamond: {fileID: 21300000, guid: 56668eb0b2784124191650e38a7a9919, type: 3}
+  suitHeart: {fileID: 21300000, guid: 7a884adb40690744f8839b3d221c903e, type: 3}
+  suitSpade: {fileID: 21300000, guid: 1c7097cab27b90941a98c8c593ce5184, type: 3}
+  faceSprites:
+  - {fileID: 21300000, guid: d71da3a9095f0e44d8e30077aea3e875, type: 3}
+  - {fileID: 21300000, guid: d6ac32772caff204a90c4d7f80889b99, type: 3}
+  - {fileID: 21300000, guid: 235ab41ea64d2b842b5b105ab54877f0, type: 3}
+  - {fileID: 21300000, guid: 1c3182f944a9240478eca1841837ea99, type: 3}
+  - {fileID: 21300000, guid: 1e8884bebaf4ddc48b9d59cb4d8575d8, type: 3}
+  - {fileID: 21300000, guid: ec6e3892943b87943a3fbda9a6a50a2c, type: 3}
+  - {fileID: 21300000, guid: c31487c2ccdebe04892637d6e56fc86a, type: 3}
+  - {fileID: 21300000, guid: 50e2ddea3f7cfed45be3da7a0d803992, type: 3}
+  - {fileID: 21300000, guid: 740f1f7ffa67c5845ad49a2935a70d98, type: 3}
+  - {fileID: 21300000, guid: fdce66a91a95cd34d8789f2d5665165a, type: 3}
+  - {fileID: 21300000, guid: ba45c4e9144a21e49aca718705d1cac8, type: 3}
+  - {fileID: 21300000, guid: bb1c1cd49db669947b3a631c020de2d3, type: 3}
+  rankSprites:
+  - {fileID: 3511996523978390141, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}
+  - {fileID: -2261305175963411493, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}
+  - {fileID: 617603048062758181, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}
+  - {fileID: 3452093454667083448, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}
+  - {fileID: 3173584283160508882, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}
+  - {fileID: 166422559232659144, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}
+  - {fileID: -8277944437088134005, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}
+  - {fileID: 3559515457512599280, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}
+  - {fileID: 8109854217852864694, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}
+  - {fileID: 8831277627142835406, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}
+  - {fileID: 6916494102344939985, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}
+  - {fileID: 1921014744415982970, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}
+  - {fileID: 6574757499795186916, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}
+  - {fileID: -1375566778094241972, guid: 238a33695aac4f04ea25f46c06134b34, type: 3}

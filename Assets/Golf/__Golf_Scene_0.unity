@@ -494,8 +494,8 @@ GameObject:
   - component: {fileID: 827460520}
   - component: {fileID: 827460519}
   - component: {fileID: 827460518}
-  - component: {fileID: 827460517}
-  - component: {fileID: 827460516}
+  - component: {fileID: 827460526}
+  - component: {fileID: 827460527}
   m_Layer: 0
   m_Name: _MainCamera
   m_TagString: MainCamera
@@ -529,7 +529,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_BackGroundColor: {r: 0.09376113, g: 0.4056604, b: 0.1949767, a: 0.019607844}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -577,43 +577,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &827460516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827460508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e86dcd7663340e4a914dd1e67e01001, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  roundDelay: 2
-  drawPile: []
-  discardPile: []
-  mine: []
-  target: {fileID: 0}
---- !u!114 &827460517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827460508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23d89319b57e20e46a5ba4de65a0b573, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardSprites: {fileID: 0}
-  prefabCard: {fileID: 6265936321915940994, guid: dea8674e089d683409b4031a7b576187,
-    type: 3}
-  prefabSprite: {fileID: 1000014090761352, guid: d8bb4d987a331574fbda85dc52f5ce94,
-    type: 3}
-  startFaceUp: 1
-  deckAnchor: {fileID: 0}
-  cards: []
 --- !u!114 &827460518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -696,6 +659,43 @@ MonoBehaviour:
   roundResultText: {fileID: 162208883}
   highScoreText: {fileID: 1179824744}
   _resultsUIFieldsVisible: 0
+--- !u!114 &827460526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827460508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d89319b57e20e46a5ba4de65a0b573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardSprites: {fileID: 11400000, guid: c0d1bfc192f2e844587fc1cd12b10194, type: 2}
+  prefabCard: {fileID: 6265936321915940994, guid: dea8674e089d683409b4031a7b576187,
+    type: 3}
+  prefabSprite: {fileID: 1000014090761352, guid: d8bb4d987a331574fbda85dc52f5ce94,
+    type: 3}
+  startFaceUp: 0
+  deckAnchor: {fileID: 0}
+  cards: []
+--- !u!114 &827460527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827460508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e86dcd7663340e4a914dd1e67e01001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roundDelay: 2
+  drawPile: []
+  discardPile: []
+  mine: []
+  target: {fileID: 0}
 --- !u!1 &1132777281
 GameObject:
   m_ObjectHideFlags: 0

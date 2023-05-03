@@ -80,14 +80,14 @@ namespace GolfGame
                     // Get the SpriteRenderer Component
                     _tSRend = _tGO.GetComponent<SpriteRenderer>();
                     // Get the suit Sprite from the CardSpritesSO.SUIT static field
-                    _tSRend.sprite = CardSpritesSO.SUITS[suit];
+                    _tSRend.sprite = CardSpritesSO1.SUITS[suit];
                 }
                 else
                 {
                     _tGO = Instantiate<GameObject>(Deck.SPRITE_PREFAB, transform);
                     _tSRend = _tGO.GetComponent<SpriteRenderer>();
                     // Get the rank Sprite from the CardSpritesSO.RANK static field
-                    _tSRend.sprite = CardSpritesSO.RANKS[rank];
+                    _tSRend.sprite = CardSpritesSO1.RANKS[rank];
                     // Set the color of the rank to match the suit
                     _tSRend.color = color;
                 }
@@ -136,7 +136,7 @@ namespace GolfGame
                 // Get the SpriteRenderer Component
                 _tSRend = _tGO.GetComponent<SpriteRenderer>();
                 // Set the Sprite to the proper suit
-                _tSRend.sprite = CardSpritesSO.SUITS[suit];
+                _tSRend.sprite = CardSpritesSO1.SUITS[suit];
                 // sortingOrder=1 renders this pip above the Card_Front
                 _tSRend.sortingOrder = 1;
                 // Add this to the Card’s list of pips
@@ -153,7 +153,7 @@ namespace GolfGame
                                         // Find a face sprite in CardSpritesSO with the right name
             string faceName = def.face + suit;
 
-            _tSprite = CardSpritesSO.GET_FACE(faceName);
+            _tSprite = CardSpritesSO1.GET_FACE(faceName);
             if (_tSprite == null)
             {
                 Debug.LogError("Face sprite " + faceName + " not found.");
@@ -184,7 +184,7 @@ namespace GolfGame
         {
             _tGO = Instantiate<GameObject>(Deck.SPRITE_PREFAB, transform);
             _tSRend = _tGO.GetComponent<SpriteRenderer>();
-            _tSRend.sprite = CardSpritesSO.BACK;
+            _tSRend.sprite = CardSpritesSO1.BACK;
             _tGO.transform.localPosition = Vector3.zero;
             // 2 is a higher sortingOrder than anything else
             _tSRend.sortingOrder = 2;

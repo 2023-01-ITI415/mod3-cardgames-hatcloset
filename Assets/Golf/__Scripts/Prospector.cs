@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 namespace GolfGame
 {
-    [RequireComponent(typeof(Deck))]
-    [RequireComponent(typeof(JsonParseLayout))]
     public class Prospector : MonoBehaviour
     {
         private static Prospector S; // A private Singleton for Prospector

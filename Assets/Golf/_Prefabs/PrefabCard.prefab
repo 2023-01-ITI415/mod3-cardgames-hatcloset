@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5017901798137382384}
   - component: {fileID: 959726768588018465}
   - component: {fileID: 4813590680745183771}
-  - component: {fileID: -7299747227028784964}
+  - component: {fileID: 832598363908104045}
   m_Layer: 0
   m_Name: PrefabCard
   m_TagString: Untagged
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.56, y: 3.56}
   m_EdgeRadius: 0
---- !u!114 &-7299747227028784964
+--- !u!114 &832598363908104045
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6265936321915940994}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35b91db65b6ed244e8367e3fcf555514, type: 3}
+  m_Script: {fileID: 11500000, guid: 14eb345f5919d8b4cb8f8d5ac81439df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   suit: 0

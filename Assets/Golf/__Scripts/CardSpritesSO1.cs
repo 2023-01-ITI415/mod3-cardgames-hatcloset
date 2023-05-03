@@ -4,8 +4,8 @@ using UnityEngine;
 
 namespace GolfGame
 {
-    [CreateAssetMenu(fileName = "CardSprites", menuName = "ScriptableObjects/CardSpriteSO")]
-    public class CardSpritesSO : ScriptableObject
+    [CreateAssetMenu(fileName = "CardSprites", menuName = "ScriptableObjects/CardSpriteSO1")]
+    public class CardSpritesSO1 : ScriptableObject
     {
         [Header("Card Stock")]
         public Sprite cardBack;
@@ -25,7 +25,7 @@ namespace GolfGame
         public Sprite[] faceSprites;
         public Sprite[] rankSprites;
 
-        private static CardSpritesSO S;
+        private static CardSpritesSO1 S;
         public static Dictionary<char, Sprite> SUITS { get; private set; }
 
         public void Init()
@@ -37,7 +37,7 @@ namespace GolfGame
         /// Initializes the static elements of CardSpriteSO.
         /// </summary>
         /// <param name="cSSO">CardSpriteSO to be assigned to the Singleton S</param>
-        static void INIT_STATICS(CardSpritesSO cSSO)
+        static void INIT_STATICS(CardSpritesSO1 cSSO)
         {
             if (S != null)
             {
