@@ -280,7 +280,7 @@ namespace GolfGame
         void ReloadLevel()
         {
             // Reload the scene, resetting the game
-            SceneManager.LoadScene("__Golf_Scene_0");
+            SceneManager.LoadScene("MainScene");
         }
 
         /// <summary>
