@@ -28,8 +28,8 @@ namespace GolfGame
         public GameObject floatingScorePrefab;
         public float floatDuration = 0.75f;
         public Vector2 fsPosMid = new Vector2(0.5f, 0.9f);
-        public Vector2 fsPosRun = new Vector2(0.5f, 0.75f);
-        public Vector2 fsPosMid2 = new Vector2(0.4f, 1.0f);
+        public Vector2 fsPosRun = new Vector2(0.5f, 0.85f);
+        public Vector2 fsPosMid2 = new Vector2(0.4f, 1f);
         public Vector2 fsPosEnd = new Vector2(0.5f, 0.95f);
         [Tooltip("If true, then score events are logged to the Console.")]
         public bool logScoreEvents = true;

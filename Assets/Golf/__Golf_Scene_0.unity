@@ -635,7 +635,7 @@ MonoBehaviour:
     type: 3}
   floatDuration: 0.75
   fsPosMid: {x: 0.5, y: 0.9}
-  fsPosRun: {x: 0.5, y: 0.75}
+  fsPosRun: {x: 0.5, y: 0.85}
   fsPosMid2: {x: 0.4, y: 1}
   fsPosEnd: {x: 0.5, y: 0.95}
   logScoreEvents: 1
