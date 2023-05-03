@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f218a787ff1e19b4c8b81807afb44768, type: 3}
   m_Name: CardSprites
   m_EditorClassIdentifier: 
-  cardBack: {fileID: 21300000, guid: 37673287199a88346813e53676763539, type: 3}
-  cardBackSilver: {fileID: 21300000, guid: 37673287199a88346813e53676763539, type: 3}
-  cardBackGold: {fileID: 21300000, guid: 37673287199a88346813e53676763539, type: 3}
+  cardBack: {fileID: 21300000, guid: 3ce76280a9fdb0e47bfb6aaa550c4aed, type: 3}
+  cardBackSilver: {fileID: 21300000, guid: b838fb02f3dbd8c4199cc9b488259799, type: 3}
+  cardBackGold: {fileID: 21300000, guid: 0c55f89beaeb05048816419a1f609a96, type: 3}
   cardFront: {fileID: 21300000, guid: 5e516d948788abf44b99df7d19abe6b7, type: 3}
   cardFrontSilver: {fileID: 21300000, guid: d2025a1eba56dac4b9b75d873c6699b8, type: 3}
   cardFrontGold: {fileID: 21300000, guid: 18021ff0083a9d34c8ff2b4ceac2b3a5, type: 3}

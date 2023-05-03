@@ -146,7 +146,7 @@ namespace GolfGame
             // Place it on top of the pile for depth sorting
 
             cp.SetSpriteSortingLayer(jsonLayout.discardPile.layer);
-            cp.SetSortingOrder(-200 + (discardPile.Count * 3));
+            cp.SetSortingOrder(-200 + (discardPile.Count * 6));
         }
 
         /// <summary>

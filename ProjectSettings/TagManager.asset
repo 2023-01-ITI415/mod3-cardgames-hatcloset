@@ -53,6 +53,9 @@ TagManager:
   - name: Row3
     uniqueID: 3827774347
     locked: 0
+  - name: Row4
+    uniqueID: 396260315
+    locked: 0
   - name: Discard
     uniqueID: 1081171755
     locked: 0
