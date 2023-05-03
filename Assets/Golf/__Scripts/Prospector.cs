@@ -46,6 +46,9 @@ namespace GolfGame
 
             // Set up the draw pile
             UpdateDrawPile();
+
+            // Reset Face-Up Cards (to prevent rows behind cards from being active)
+            S.SetMineFaceUps();
         }
 
         /// <summary>
@@ -277,7 +280,7 @@ namespace GolfGame
         void ReloadLevel()
         {
             // Reload the scene, resetting the game
-            SceneManager.LoadScene("__Prospector_Scene_0");
+            SceneManager.LoadScene("__Golf_Scene_0");
         }
 
         /// <summary>
